@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,17 +8,18 @@
     <link rel="stylesheet" href="estilo.css">
     <link rel="shortcut icon" href="img/flat-style-icon-depicting-survey-260nw-2754821831.webp" type="image/x-icon">k
 </head>
+
 <body>
 
-    
-    <div class="conteudo-formulário">
-        <h1>Introdução a formulários</h1>
-    
-        <form>
-            <label for="pNome"> Nome:</label> 
-            <input type="text" name="nome" id="pNome" size="30"> 
 
-            <label for="sobreNome"> Sobrenome:</label> 
+    <div class="conteudo-formulário">
+        <h1 id="title">Introdução a formulários</h1>
+
+        <form>
+            <label for="pNome"> Nome:</label>
+            <input type="text" name="nome" id="pNome" size="30" required>
+
+            <label for="sobreNome"> Sobrenome:</label>
             <input type="text" name="sobrenome" id="sobreNome" size="30">
 
             <h3>Selecione seu curso</h3>
@@ -36,14 +38,49 @@
 
             <h3>Dados da plataforma</h3>
 
-            <label for="endEmail"> Email: </label> 
+            <label for="endEmail"> Email: </label>
             <input type="email" id="endEmail"> <br>
 
             <label for="senha">Defina uma senha</label>
-            <input type="password" id="senha" >
-            
+            <input type="password" id="senha">
 
+
+            <div class="conteudo-disciplina">
+
+                <h3>Escolha as disciplinas favoritas</h3>
+
+                <input type="checkbox" id="port">
+                <label for="port">Português</label> <br>
+
+                <input type="checkbox" id="mat">
+                <label for="mat">Matemática</label><br>
+
+                <input type="checkbox" id="lp2">
+                <label for="lp2">Lab programação 2</label>
+
+            </div>
+
+            <div class="conteudo-ano">
+
+                <h3>Escolha o ano cursado</h3>
+
+                <select name="lista-ano" id="ano-cursado">
+
+                    <option value="1">1° Ano</option>
+                    <option value="2">2° Ano</option>
+                    <option value="3">3° Ano</option>
+
+                </select>
+            </div>
+
+            <p>Digite sua mensagem:</p>
+            <textarea rows="20" cols="60" placeholder=""></textarea><br>
+
+            <button onclick="alert('Jesus te ama')">Enviar dados</button>
         </form>
+
+        <a class="link" href="flexbox.html">ir para a página flexbox</a>
     </div>
 </body>
+
 </html>

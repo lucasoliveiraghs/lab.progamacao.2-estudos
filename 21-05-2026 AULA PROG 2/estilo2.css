@@ -1,0 +1,21 @@
+.conteudo-principal {
+    background-color: aliceblue;
+}
+
+.rodape {
+    background-color: rgb(7, 90, 167);
+}
+
+.todo-conteudo {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-around;
+}
+
+body{
+    background-color: rgb(1, 13, 24);
+}
+
+.link{
+    color: white;
+}
