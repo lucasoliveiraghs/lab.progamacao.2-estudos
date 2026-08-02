@@ -4,12 +4,15 @@ recalculado.*/
 
 const v = [];
 let soma = 0;
-let valor = 0;
 
 for( let i = 1 ; i <= 7; i++){
 
 let valor = Number(prompt("Digite o preço do " + i + "° produto:"));
-soma += valor;
+v.push(valor);
+}
+
+for( let i = 0; i < v.length; i++){
+    soma += v[i];
 }
 
 if( soma > 300){
