@@ -6,5 +6,8 @@ const perfilinstagram = {
     estaAtivo: 1
 }
 
-let 
 console.log(`O usuário ${perfilinstagram.username} possui ${perfilinstagram.seguidores} seguidores.`);
+
+perfilinstagram.seguidores += 150,
+
+console.log(`O perfil ganhou mais 150 seguidores, indo para ${perfilinstagram.seguidores} seguidores`)
