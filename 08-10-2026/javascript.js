@@ -17,5 +17,20 @@ botaoImprime.addEventListener("click", () => {
     mensagemEle.innerText = `Bom dia ${entrada}`}else{
         mensagemEle.innerText = `Não é válido`
     }
+
 })
 
+const lista = document.getElementById("lista-carros")
+
+    lista.addEventListener("mouseover", (evento) => {
+    console.log(evento.target.id)
+    const elementoP = document.getElementById("descricao-carro")
+    if(evento.target.id == "fusca"){
+        elementoP.innerText = `carro mais charmoso que já existiu (e também mais apertado).`
+    }else if(evento.target.id == "ferrari"){
+        elementoP.innerText = `Vrummmmm`
+    }else{
+        (evento.target.id == "brasilia")
+        elementoP.innerText = `vrammmmmmm`
+    }
+})
