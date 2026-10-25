@@ -1,0 +1,21 @@
+/*1. É importante nos atentarmos ao SEO no momento de
+criação do site para que ele possa ser encontrado mais
+facilmente pelos motores de busca. Pesquise e cite
+algumas táticas para ajudar o site a ser melhor ranqueado
+pelo SEO, com referencias reais.
+
+Resposta: Usar URLs descritivos; Organizar seu site; Deixar o site mais prático e interessante; Antecipar os termos de pesquisa dos leitores; Evitar anúncios que distraiam ou atrapalhem a experiência dos usuários; Criar links para recursos relevantes; etc.
+
+2. O framework que seu grupo apresentou no seminário,
+possibilita o desenvolvimento responsivo? Quais
+elementos ele disponibiliza para que isso seja possível?
+
+Resposta: (picocss) Sim. Utiliza sistema de breakpoints; contêiners inteligentes; Grid com responsividade nativa; Tipografia responsiva nativamente; "Horizontal Rule"; etc.
+
+3. Procure um site que você acessa e faça uma crítica
+relacionada a sua responsividade, com base nos tópicos
+debatidos.
+
+Resposta: arngren.net, é completamente quebrado no celular por ser um website antigo, muitos elementos em tela, com conteúdo bem pequeno, além de não caber todo o conteúdo dentro da tela.
+
+*/
