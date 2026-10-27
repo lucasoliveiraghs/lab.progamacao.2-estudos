@@ -5,6 +5,7 @@ algumas táticas para ajudar o site a ser melhor ranqueado
 pelo SEO, com referencias reais.
 
 Resposta: Usar URLs descritivos; Organizar seu site; Deixar o site mais prático e interessante; Antecipar os termos de pesquisa dos leitores; Evitar anúncios que distraiam ou atrapalhem a experiência dos usuários; Criar links para recursos relevantes; etc.
+https://developers.google.com/?hl=pt-br
 
 2. O framework que seu grupo apresentou no seminário,
 possibilita o desenvolvimento responsivo? Quais
